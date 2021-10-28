@@ -3,3 +3,33 @@
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 575px) {
+    #h2-first-jumbo {
+        font-size: 40px;
+    }
+    #img-first-jumbo {
+        width: 280px;
+    }
+}
+@media screen and (min-width: 576px) {
+    #h2-first-jumbo {
+        font-size: 42px;
+    }
+    #img-first-jumbo {
+        width: 320px;
+    }
+}
+@media screen and (min-width: 720px) {
+    #h2-first-jumbo {
+        font-size: 36px;
+    }
+    #img-first-jumbo {
+        width: 380px;
+    }
+}
+@media screen and (min-width: 960px) {
+    #img-first-jumbo {
+        width: 200px;
+    }
+}
