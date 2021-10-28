@@ -3,6 +3,9 @@
     background-size: cover;
     background-position: center;
 }
+.img_border_radius {
+    border-radius: 20px;
+}
 
 @media screen and (max-width: 575px) {
     #h2-first-jumbo {
