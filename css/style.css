@@ -33,6 +33,10 @@
 .free-games {
     display: none;
 }
+.social {
+    width: calc(100% / 2 - 20px);
+    margin: 20px 8px;
+}
 
 @media screen and (max-width: 575px) {
     .my_h2 {
@@ -70,6 +74,10 @@
             max-height: 300px;
             max-width: 470px;
         }
+    .social {
+        width: calc(100% / 4 - 20px);
+        margin: 20px 8px;
+    }
 }
 @media screen and (min-width: 960px) {
     #img-first-jumbo {
