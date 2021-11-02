@@ -30,7 +30,9 @@
     background-size: cover;
     background-position: center;
 }
-
+.free-games {
+    display: none;
+}
 
 @media screen and (max-width: 575px) {
     .my_h2 {
@@ -48,7 +50,7 @@
         width: 320px;
     }
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
     .my_h2 {
         font-size: 36px;
     }
@@ -61,6 +63,13 @@
     .my_card p {
         display: initial;
     }
+    .free-games {
+        display: block;
+    }
+        .free-games img {
+            max-height: 300px;
+            max-width: 470px;
+        }
 }
 @media screen and (min-width: 960px) {
     #img-first-jumbo {
