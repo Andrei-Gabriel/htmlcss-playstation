@@ -37,6 +37,20 @@
     width: calc(100% / 2 - 20px);
     margin: 20px 8px;
 }
+#ps-logo-footer {
+    width: 100px;
+    height: 100px;
+}
+#sie {
+    width: 120px;
+}
+#lingua {
+    font-size: 12px;
+}
+    #lingua img {
+        height: 14px;
+    }
+
 
 @media screen and (max-width: 575px) {
     .my_h2 {
@@ -77,6 +91,12 @@
     .social {
         width: calc(100% / 4 - 20px);
         margin: 20px 8px;
+    }
+    #lista-footer {
+        display: flex;
+    }
+    #footer_text {
+        font-size: 10px;
     }
 }
 @media screen and (min-width: 960px) {
